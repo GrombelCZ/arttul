@@ -1,0 +1,80 @@
+#ProjectDetail {
+	z-index: 11;
+	color: white;
+	position: relative;
+	padding: 25px;
+	max-width: 1170px;
+	margin: 25px auto 25px auto;
+
+	.returnArrow {
+		float: right;
+	}
+
+	a {
+		color: inherit;
+		text-decoration: none;
+		transition: all 0.3s;
+
+		&:hover {
+			color: #f3333f;
+		}
+	}
+
+	.aboutText {
+		.detailAuthor {
+			font-size: 1.2em;
+			text-decoration: underline;
+			text-decoration-color: #f3333f;
+			margin-bottom: 10px;
+		}
+
+		.detailText {
+			margin-top: 25px;
+		}
+
+		span {
+			display: block;
+		}
+	}
+
+	.images {
+		margin-top: 25px;
+		text-align: center;
+
+		img {
+			width: auto;
+			max-width: 270px;
+			height: auto;
+			max-height: 200px;
+			margin: 5px;
+			transition: all 0.3s;
+
+			&:hover {
+				opacity: 0.75;
+			}
+		}
+	}
+
+	.videos {
+		margin-top: 25px;
+		text-align: center;
+		position: relative;
+		width: 100%;
+		overflow: hidden;
+		padding-top: 56.25%; /* 16:9 Aspect Ratio */
+
+		iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+			border: none;
+		}
+	}
+}
+
+
+

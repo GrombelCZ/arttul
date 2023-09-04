@@ -1,0 +1,124 @@
+//	BASIC
+.button {
+	border: 2px solid black;
+	border-radius: 6px;
+	background-color: white;
+	padding: 10px 20px;
+	font-size: 1.2em;
+	transition: 0.2s all;
+	cursor: pointer;
+
+	&:hover {
+		background-color: gray;
+	}
+
+	&.button-full-width {
+		width: 100%;
+	}
+}
+//	SPECIAL
+/* 	Toggle switch checkbox
+	Usage
+			- label class switch <
+			- input type checkbox
+			- span class slider
+			- label />
+ */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 44px;
+
+	input {
+		opacity: 0;
+		width: 0;
+		height: 0;
+
+		&:focus, &:active {
+			outline: 0 !important;
+			border: none;
+		}
+	}
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	border: 1px solid black;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: "\002716";
+	text-align: center;
+	padding-top: 4px;
+	font-size: 1.2em;
+	height: 32px;
+	width: 36px;
+	left: 3px;
+	bottom: 3px;
+	background-color: black;
+	color: white;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(56px);
+	-ms-transform: translateX(56px);
+	transform: translateX(56px);
+	content: "\002714";
+}
+
+.checkBoxContainer {
+	display: inline-block;
+	position: relative;
+	margin: 0 12px;
+	cursor: pointer;
+	font-size: 1em;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+
+	& input {
+		position: absolute;
+		opacity: 0;
+		cursor: pointer;
+	}
+
+	i {
+		display: block;
+		width: 100%;
+	}
+
+	.checkMark {
+		top: 0;
+		left: 0;
+
+		&:after {
+			content: "";
+			position: absolute;
+			display: none;
+		}
+	}
+
+	&:hover input ~ .checkMark {
+	}
+
+	& input:checked ~ .checkMark, .checkBoxContainer {
+		color: @c-orange;
+	}
+
+	& input:checked ~ .checkMark:after {
+		display: block;
+	}
+}

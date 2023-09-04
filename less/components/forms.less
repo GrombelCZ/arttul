@@ -1,0 +1,33 @@
+form {
+	width: 100%;
+
+	&.form-block {
+		input[type=text], input[type=password], input[type=number], input[type=date] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			box-sizing: border-box;
+		}
+
+		span.password {
+			float: right;
+			padding-top: 16px;
+		}
+
+		@media screen and (max-width: 300px) {
+			span.password {
+				display: block;
+				float: none;
+			}
+
+			.form-cancel {
+				width: 100%;
+			}
+		}
+	}
+
+	&.form-inline {
+
+	}
+}

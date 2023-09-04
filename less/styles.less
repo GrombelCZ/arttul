@@ -1,0 +1,133 @@
+@import "components/components.less";
+@import "variables.less";
+
+body, html {
+	height: 100%;
+	margin:0;
+	padding: 0;
+	background-color: #101010;
+	color: @c-white;
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+
+	.noselect {
+		-webkit-touch-callout: none; /* iOS Safari */
+		-webkit-user-select: none; /* Safari */
+		-khtml-user-select: none; /* Konqueror HTML */
+		-moz-user-select: none; /* Old versions of Firefox */
+		-ms-user-select: none; /* Internet Explorer/Edge */
+		user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+	}
+
+	@import "abstractHeader.less";
+	@import "fixedTopBar.less";
+	@import "fixedMenu.less";
+	@import "arrow.less";
+	@import "realPage.less";
+	@import "projectDetail.less";
+
+	#Footer {
+		z-index: 11;
+		max-width: 1170px;
+		margin: 0 auto;
+		position: relative;
+		border-top: 1px solid #f3333f;
+		opacity: 0.5;
+		text-align: center;
+		padding: 5px;
+		transition: all 0.3s;
+
+		&:hover {
+			opacity: 1;
+		}
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+	}
+
+}
+
+@media only screen and (max-width: 992px) {
+	html, body {
+		.abstractHeader {
+			.center {
+				.titleOne { font-size: 3.5em; }
+
+				.titleTwo { font-size: 2.1em; }
+			}
+		}
+
+		#RealPage {
+			.second {
+				.content > div {
+					width: 100% !important;
+				}
+
+				.thirdTitle  {
+					font-size: 1em;
+				}
+
+				.ateliersPhotos {
+					img {
+						max-width: 75px;
+					}
+				}
+
+				.right {
+					border-left: none;
+
+					p {
+						padding-left: 0;
+					}
+				}
+
+				.left {
+					p {
+						padding-right: 0;
+					}
+				}
+			}
+		}
+
+		#Projects {
+			-moz-column-count:    1;
+			-webkit-column-count: 1;
+			column-count:         1;
+
+			a { display: unset; }
+
+			img {
+				max-height: 400px;
+				text-align: center;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	html, body {
+		#AbstractHeader {
+			.center {
+				.titleOne { font-size: 3em; }
+
+				.titleTwo { font-size: 1.8em; }
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	html, body {
+		#AbstractHeader {
+			.center {
+				.titleOne { font-size: 2.3em; }
+
+				.titleTwo { font-size: 1.38em; }
+			}
+		}
+	}
+}

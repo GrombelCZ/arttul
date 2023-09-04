@@ -1,0 +1,106 @@
+#FixedTopBar {
+	z-index: 20;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgba(16, 16, 16, 0.5);
+	transition: 0.3s all;
+	//border-bottom: 1px solid rgba(243, 51, 63, 0.5);
+
+	.centeredTopBar {
+		position: relative;
+		max-width: 1170px;
+		margin: 0 auto;
+		font-size: 1.2em;
+		padding: 5px 15px;
+
+		.separator {
+			display: inline-block;
+			margin: 0 4px;
+
+			.separatorInner {
+				background-color: #f3333f;
+				width: 3px;
+				height: 15px;
+			}
+		}
+
+		#LangButton {
+			float: right;
+			line-height: 1;
+			margin-right: 10px;
+		}
+
+		#BurgerMenu {
+			float: right;
+			margin-top: 1px;
+		}
+
+		#MobileMenu {
+			float: right;
+			margin-top: 1px;
+		}
+
+		.social {
+			margin-right: 8px;
+		}
+
+		#LangButton, i {
+			cursor: pointer;
+			transition: 0.3s all;
+
+			&:hover {
+				color: #f3333f;
+			}
+		}
+
+		.homeLogo {
+			font-weight: 500;
+			transition: 0.3s all;
+			cursor: pointer;
+
+			&:hover {
+				color: #f3333f;
+			}
+		}
+
+		a {
+			text-decoration: none;
+			color: inherit;
+		}
+	}
+
+	&:hover {
+		background-color: rgba(16, 16, 16, 1);
+	}
+}
+
+#MobileMenuArea {
+	display: none;
+	z-index: 16;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	.menuArea {
+		background-color: black;
+		width: 100%;
+		height: 100%;
+		position: relative;
+		text-align: center;
+		padding-top: 150px;
+
+		a {
+			text-decoration: none;
+			color: white;
+		}
+
+		span {
+			display: block;
+			font-size: 2em;
+			margin-top: 15px;
+		}
+	}
+}

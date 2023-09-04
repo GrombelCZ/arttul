@@ -1,0 +1,13 @@
+#vystup { width: 800px; background: rgba(0,0,0,0.2); margin: 0 auto; min-height: 100px; border-radius: 100px; padding: 50px; }
+#vety { background: white; min-height: 100px; border-radius: 10px; text-align: center; padding: 20px 0px; }
+
+header { font-size: 20pt; text-align: center; }
+
+p:first-letter { text-transform: uppercase; }
+p:after { content: "."; }
+
+p { -webkit-transition: 800ms; border-top: 4px solid transparent; border-bottom: 4px solid transparent; padding: 3px;}
+p:hover { border-color: rgba(0,0,0,0.2); }
+
+.odkazDalsi { float: right; color: black; text-decoration: none; font-weight: bold; }
+.pocetVet {color: black; text-decoration: none; font-weight: bold; }

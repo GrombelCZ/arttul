@@ -1,0 +1,343 @@
+{
+  "projects": {
+    "1": [
+      {
+        "title":"Stabilní a nestabilní",
+        "author":"Aleš Bělohradský",
+        "year":"2010",
+        "items":[
+          "Grafika 1",
+          "Grafika 2",
+          "Grafika 3",
+          "Grafika 4",
+          "Grafika 5"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg",
+          "4.jpg",
+          "5.jpg"]
+      }
+    ],
+    "2": [
+      {
+        "title":"AKA47 Video mapping",
+        "author":"Andrea Pekárková",
+        "year":"2013",
+        "items":[
+          "Foto video mappingu na stěně"],
+        "files":[
+          "1.jpg"]
+      }
+    ],
+    "3": [
+      {
+        "title":"Kvadratické systémy",
+        "author":"Jana Bernartová",
+        "year":"2007",
+        "items":[
+          "Generované umění 1",
+          "Generované umění 2",
+          "Generované umění 3",
+          "Generované umění 4"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg",
+          "4.jpg"]
+      }
+    ],
+    "4": [
+      {
+        "title":"Zvětšenina",
+        "author":"Zuzana Čechová",
+        "year":"2010",
+        "items":[
+          "Fotodokumance 1",
+          "Fotodokumance 2"],
+        "files":[
+          "1.jpg",
+          "2.jpg"]
+      }
+    ],
+    "5": [
+      {
+        "title":"Diplomové práce",
+        "author":"Bímová, Pavlíková, Pekárková, Šmíd, Valenta",
+        "year":"2013",
+        "items":[
+          "Jan Valenta",
+          "Andrea Pekárková",
+          "Barbora Bímová",
+          "David Šmíd",
+          "Lenka Pavlíková"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg",
+          "4.jpg",
+          "5.jpg"]
+      }
+    ],
+    "6": [
+      {
+        "title":"Vizionářská architektura",
+        "author":"Petra Dorotíková",
+        "year":"2012",
+        "items":[
+          "Grafika 1",
+          "Grafika 2",
+          "Grafika 3",
+          "Grafika 4",
+          "Grafika 5"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg",
+          "4.jpg",
+          "5.jpg"]
+      }
+    ],
+    "7": [
+      {
+        "title":"Protože mě králík pokousal",
+        "author":"Drahoňovská",
+        "year":"2010",
+        "items":[
+          "Grafika 1",
+          "Grafika 2"],
+        "files":[
+          "1.jpg",
+          "2.jpg"]
+      }
+    ],
+    "8": [
+      {
+        "title":"Co je to?",
+        "author":"Jiří Hořavka",
+        "year":"2011",
+        "items":[
+          "Grafika 1",
+          "Grafika 2",
+          "Půdorys ",
+          "Model"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg",
+          "4.jpg"]
+      }
+    ],
+    "9": [
+      {
+        "title":"Hyperprostor",
+        "author":"Petr Hostaš",
+        "year":"2010",
+        "items":[
+          "Grafika 1",
+          "Grafika 2",
+          "Grafika 3"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg"]
+      }
+    ],
+    "10": [
+      {
+        "title":"Virtuální krajina",
+        "author":"Pavlína Hubnerová",
+        "year":"2011",
+        "items":[
+          "Třeba ty nadpisy vymyslet nooo",
+          "Třeba ty nadpisy vymyslet nooo II"],
+        "files":[
+          "1.jpg",
+          "2.jpg"]
+      }
+    ],
+    "11": [
+      {
+        "title":"bohužel chybí",
+        "author":"Barbora Huclová",
+        "year":"2012",
+        "items":[
+          "Pokus o titulek 1",
+          "Pokus o titulek 2"],
+        "files":[
+          "1.jpg",
+          "2.jpg"]
+      }
+    ],
+    "12": [
+      {
+        "title":"Stabilní a nestabilní",
+        "author":"Aleš Bělohradský",
+        "year":"2010",
+        "items":[
+          "Grafika 1",
+          "Grafika 2",
+          "Grafika 3",
+          "Grafika 4",
+          "Grafika 5"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg",
+          "4.jpg",
+          "5.jpg"]
+      }
+    ],
+    "13": [
+      {
+        "title":"AKA47 Video mapping",
+        "author":"Andrea Pekárková",
+        "year":"2013",
+        "items":[
+          "Foto video mappingu na stěně"],
+        "files":[
+          "1.jpg"]
+      }
+    ],
+    "14": [
+      {
+        "title":"Kvadratické systémy",
+        "author":"Jana Bernartová",
+        "year":"2007",
+        "items":[
+          "Generované umění 1",
+          "Generované umění 2",
+          "Generované umění 3",
+          "Generované umění 4"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg",
+          "4.jpg"]
+      }
+    ],
+    "15": [
+      {
+        "title":"Zvětšenina",
+        "author":"Zuzana Čechová",
+        "year":"2010",
+        "items":[
+          "Fotodokumance 1",
+          "Fotodokumance 2"],
+        "files":[
+          "1.jpg",
+          "2.jpg"]
+      }
+    ],
+    "16": [
+      {
+        "title":"Diplomové práce",
+        "author":"Bímová, Pavlíková, Pekárková, Šmíd, Valenta",
+        "year":"2013",
+        "items":[
+          "Jan Valenta",
+          "Andrea Pekárková",
+          "Barbora Bímová",
+          "David Šmíd",
+          "Lenka Pavlíková"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg",
+          "4.jpg",
+          "5.jpg"]
+      }
+    ],
+    "17": [
+      {
+        "id":17,
+        "title":"Vizionářská architektura",
+        "author":"Petra Dorotíková",
+        "year":"2012",
+        "items":[
+          "Grafika 1",
+          "Grafika 2",
+          "Grafika 3",
+          "Grafika 4",
+          "Grafika 5"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg",
+          "4.jpg",
+          "5.jpg"]
+      }
+    ],
+    "18": [
+      {
+        "title":"Protože mě králík pokousal",
+        "author":"Drahoňovská",
+        "year":"2010",
+        "items":[
+          "Grafika 1",
+          "Grafika 2"],
+        "files":[
+          "1.jpg",
+          "2.jpg"]
+      }
+    ],
+    "19": [
+      {
+        "title":"Co je to?",
+        "author":"Jiří Hořavka",
+        "year":"2011",
+        "items":[
+          "Grafika 1",
+          "Grafika 2",
+          "Půdorys ",
+          "Model"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg",
+          "4.jpg"]
+      }
+    ],
+    "20": [
+      {
+        "title":"Hyperprostor",
+        "author":"Petr Hostaš",
+        "year":"2010",
+        "items":[
+          "Grafika 1",
+          "Grafika 2",
+          "Grafika 3"],
+        "files":[
+          "1.jpg",
+          "2.jpg",
+          "3.jpg"]
+      }
+    ],
+    "21": [
+      {
+        "title":"Virtuální krajina",
+        "author":"Pavlína Hubnerová",
+        "year":"2011",
+        "items":[
+          "Třeba ty nadpisy vymyslet nooo",
+          "Třeba ty nadpisy vymyslet nooo II"],
+        "files":[
+          "1.jpg",
+          "2.jpg"]
+      }
+    ],
+    "22": [
+      {
+        "title":"bohužel chybí",
+        "author":"Barbora Huclová",
+        "year":"2012",
+        "items":[
+          "Pokus o titulek 1",
+          "Pokus o titulek 2"],
+        "files":[
+          "1.jpg",
+          "2.jpg"]
+      }
+    ]
+  }
+}
